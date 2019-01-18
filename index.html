@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.53" />
 
-  <title>paiLiu's blog</title>
+  <title>paiLiu&#39;s blog</title>
 
   
   
@@ -40,12 +40,12 @@
 
  
   
-  <link rel="alternate" type="application/rss+xml" title="paiLiu's blog" href="https://paiLiu.github.io/index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="paiLiu&#39;s blog" href="https://pailiu.github.io/index.xml" />
   
 
   
 
-  <link rel="shortcut icon" href="https://paiLiu.github.io/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="https://pailiu.github.io/img/favicon.ico" type="image/x-icon" />
 
   
   
@@ -76,7 +76,7 @@
 
     
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://paiLiu.github.io/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      <a class="pure-menu-link" href="https://pailiu.github.io/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
     </li>
     
 
@@ -173,7 +173,7 @@
 
 
 <div class="header">
-  <h1>paiLiu's blog</h1>
+  <h1>paiLiu&#39;s blog</h1>
   <h2></h2>
 </div>
 
@@ -181,7 +181,40 @@
   
     <article>
   <header>
-    <h2><a href="https://paiLiu.github.io/post/first/">First</a></h2>
+    <h2><a href="https://pailiu.github.io/post/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-java/">正则表达式</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Jan 2019, 16:57</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  正则表达式 语法 限定符 规则  &rdquo;+，*，？&rdquo;含义  &rdquo;+&ldquo;，例如&rdquo;abc+b&rdquo;可以匹配&rdquo;abcb&rdquo;,&ldquo;abccb&rdquo;,但是不能匹配&rdquo;abb&rdquo;,&ldquo;+&ldquo;表示至少出现一次； &ldquo;*&ldquo;,例如&rdquo;abc*b&rdquo;可以匹配&rdquo;abb&rdquo;,&ldquo;abcb&rdquo;等，&rdquo;*&ldquo;表示可以出现0或者一次以上； &rdquo;?&ldquo;,例如&rdquo;abc?b&rdquo;可以匹配&rdquo;abcb&rdquo;,&ldquo;abb&rdquo;,但是不能匹配&rdquo;abccb&rdquo;，&rdquo;?&ldquo;表示可以最多出现一次； &rdquo;{n}&ldquo;，例如&rdquo;ab{2}&ldquo;只能匹配&rdquo;abb&rdquo;,&ldquo;{n}&ldquo;表示出现n次； &rdquo;{n,}&ldquo;,例如&rdquo;ab{2,}&ldquo;,可以匹配&rdquo;abb&rdquo;,&ldquo;abbb&rdquo;, &ldquo;{n,}&ldquo;表示至少出现n次； &rdquo;{m, n}&ldquo;,其中m &lt;= n,表示最少出现m次，最多出现n次。   总结：  &rdquo;+&ldquo;相当于&rdquo;{1,}&rdquo; ； &ldquo;*&ldquo;相当于&rdquo;{0,}&rdquo; ； &rdquo;?&ldquo;相当于&rdquo;{0,1}&rdquo; ； 在&rdquo;*&ldquo;或者&rdquo;+&ldquo;后加&rdquo;?&ldquo;将贪婪限定符转为非贪婪 。  定位符 规则  &rdquo;^&ldquo;匹配字符串开始的地方 &rdquo;$&ldquo;匹配字符串结束的位置 &ldquo;\b&rdquo;单词边界 &ldquo;\B&rdquo;非单词边界  常用元字符  [xyz],匹配字符集中的任意一个字符 [^xyz],匹配除了字符集以外的任何字符 x|y，匹配x或者y [a-z],匹配a-z中的任意一个字符 [^a-z],匹配任意一个不在a-z中的字符 \d,匹配一个数字字符，相当于[0-9] \D,匹配任意一个非数字字符，相当于[^0-9]  正则表达式在java中的应用 类介绍  Pattern类，正则表达式的编译表示  String regex = &quot;((19|20)[0-9]{2})([0-9]{9})&quot;; Pattern pattern = Pattern.compile(regex);   Matcher类，Matcher 对象是对输入字符串进行解释和匹配操作的引擎。  String regex = &quot;((19|20)[0-9]{2})([0-9]{9})&quot;; Pattern pattern = Pattern.
+  </p>
+
+  
+  <footer>
+    <a href="/post/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-java/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://pailiu.github.io/post/first/">First</a></h2>
 
     <div class="post-meta">
 
@@ -201,7 +234,7 @@
   </header>
 
   <p>
-   第一次尝试  感觉棒棒的 就是这样  
+   第一次尝试  第一次使用hugo和github写blog 感觉棒棒的 就是这样  
   </p>
 
   
@@ -216,8 +249,8 @@
 
 </div>
 </div>
-<script src="https://paiLiu.github.io/js/ui.js"></script>
-<script src="https://paiLiu.github.io/js/menus.js"></script>
+<script src="https://pailiu.github.io/js/ui.js"></script>
+<script src="https://pailiu.github.io/js/menus.js"></script>
 
 
 
